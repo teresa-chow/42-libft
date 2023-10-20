@@ -13,7 +13,7 @@ ___
 </br>
 
 ## Mandatory part I – Libc functions
-Name | Synopsis | Usage
+Name | Synopsis | ...
 --|--|--
 [ft_isalpha](https://github.com/teresa-chow/42-libft/blob/main/ft_isalpha.c) | `int  ft_isalpha(int c);` | _checks for alphabetic character_
 [ft_isdigit](https://github.com/teresa-chow/42-libft/blob/main/ft_isdigit.c) | `int  ft_isdigit(int c);` | _checks for digit (`0` through `9`)_
@@ -39,13 +39,13 @@ Name | Synopsis | Usage
 </br>
 
 ## Mandatory part II – Additional functions
-Name | Synopsis | Usage
+Name | Synopsis | ...
 --|--|--
 
 </br>
 
 ## Bonus part
-Name | Synopsis | Usage
+Name | Synopsis | ...
 --|--|--
 
 </br>
