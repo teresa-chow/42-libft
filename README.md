@@ -29,14 +29,16 @@ Name | Synopsis | ...
 [ft_memmove](https://github.com/teresa-chow/42-libft/blob/main/ft_memmove.c) | `void  *ft_memmove(void *dest, const void *src, size_t n);` | _copies memory area_
 [ft_strlcpy](https://github.com/teresa-chow/42-libft/blob/main/ft_strlcpy.c) | `size_t  ft_strlcpy(char *dst, const char *src, size_t size);` | _size-bounded string copying_
 [ft_strlcat](https://github.com/teresa-chow/42-libft/blob/main/ft_strlcat.c) | `size_t  ft_strlcat(char *dst, const char *src, size_t size);` | _size-bounded string concatenation_
-[ft_toupper](https://github.com/teresa-chow/42-libft/blob/main/ft_toupper.c) | `int  ft_toupper(int c);` | _converts letter to upper case_
-[ft_tolower](https://github.com/teresa-chow/42-libft/blob/main/ft_tolower.c) | `int  ft_tolower(int c);` | _converts letter lower case_
+[ft_toupper](https://github.com/teresa-chow/42-libft/blob/main/ft_toupper.c) | `int  ft_toupper(int c);` | _converts a lowercase letter to uppercase_
+[ft_tolower](https://github.com/teresa-chow/42-libft/blob/main/ft_tolower.c) | `int  ft_tolower(int c);` | _converts an uppercase letter to lowercase_
 [ft_strchr](https://github.com/teresa-chow/42-libft/blob/main/ft_strchr.c) | `char  *ft_strchr(const char *s, int c)` | _locates a character in a string (1st occurrence)_
 [ft_strrchr](https://github.com/teresa-chow/42-libft/blob/main/ft_strrchr.c) | `char  *ft_strrchr(const char *s, int c)` | _locates a character in a string (last occurrence)_
 [ft_strncmp](https://github.com/teresa-chow/42-libft/blob/main/ft_strncmp.c) | `int  ft_strncmp(const char *s1, const char *s2, size_t n)` | _compares two strings_
 [ft_memchr](https://github.com/teresa-chow/42-libft/blob/main/ft_memchr.c) | `void  *ft_memchr(const void *s, int c, size_t n)` | _scans memory for a character_
 [ft_strnstr](https://github.com/teresa-chow/42-libft/blob/main/ft_strnstr.c) | `char  *ft_strnstr(const char *big, const char *little, size_t len)` | _locates a substring in a string_
 [ft_atoi](https://github.com/teresa-chow/42-libft/blob/main/ft_atoi.c) | `int  ft_atoi(const char *nptr)` | _converts a string to an integer_
+ft_calloc | `void  *ft_calloc(size_t nmemb, size_t size);` | _allocates dynamic memory: the memory is set to zero_
+ft_strdup | `char *ft_strdup(const char *s);` | _duplicates a string_
 
 </br>
 
