@@ -81,6 +81,6 @@ ___
 # :compass: Usage
 ___
 ### Footnotes
-This work is published under the terms of the [Unlicense](https://github.com/teresa-chow/42-libft/blob/main/LICENSE).
+This work is published under the terms of **[42 Unlicense](https://github.com/teresa-chow/42-libft/blob/main/LICENSE)**.
 
 [⬆ back to top](#42-libft)
