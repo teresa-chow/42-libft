@@ -1,34 +1,34 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_isalnum.c                                       :+:      :+:    :+:   */
+/*   ft_putnbr_fd.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: tchow-so <tchow-so@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/10/13 10:37:00 by tchow-so          #+#    #+#             */
-/*   Updated: 2023/10/20 08:48:51 by tchow-so         ###   ########.fr       */
+/*   Created: 2023/10/20 13:58:37 by tchow-so          #+#    #+#             */
+/*   Updated: 2023/10/20 16:37:45 by tchow-so         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	ft_isalnum(int c)
+void	ft_putnbr_fd(int n, int fd)
 {
-	if (ft_isalpha(c) || ft_isdigit(c))
-		return (1);
-	return (0);
+	if (n == -2147483648)
+	{
+		ft_putstr_fd("-2147483648", fd);
+		return ;
+	}
+	if (n < 0)
+	{
+		ft_putchar_fd('-', fd);
+		n *= -1;
+	}
+	if (n > 9)
+	{
+		ft_putnbr_fd(n / 10, fd);
+		ft_putchar_fd(n % 10 + '0', fd);
+	}
+	else
+		ft_putchar_fd(n + '0', fd);
 }
-/*
-int	main(void)
-{
-	char	a = 'A';
-	char	b = '1';
-	char	c = '?';
-
-	printf("isalnum(a): %d\n", isalnum(a));
-	printf("ft_isalnum(a): %d\n", ft_isalnum(a));
-	printf("isalnum(b): %d\n", isalnum(b));
-	printf("ft_isalnum(b): %d\n", ft_isalnum(b));
-	printf("isalnum(c): %d\n", isalnum(c));
-	printf("ft_isalnum(c): %d\n", ft_isalnum(c));
-}*/
