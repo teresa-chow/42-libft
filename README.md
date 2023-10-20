@@ -25,8 +25,8 @@ ___
   [ft_strlen](https://github.com/teresa-chow/42-libft/blob/main/ft_strlen.c) | `size_t  ft_strlen(const char *s);` | _calculates the length of a string_
   [ft_memset](https://github.com/teresa-chow/42-libft/blob/main/ft_memset.c) | `void  *ft_memset(void *s, int c, size_t n);` | _fills memory with a constant byte_
   [ft_bzero](https://github.com/teresa-chow/42-libft/blob/main/ft_bzero.c) | `void  ft_bzero(void *s, size_t n);` | _writes zero-valued bytes_
-  [ft_memcpy](https://github.com/teresa-chow/42-libft/blob/main/ft_memcpy.c) | `void  *ft_memcpy(void *dest, const void *src, size_t n);` | _copies memory area_
-  [ft_memmove](https://github.com/teresa-chow/42-libft/blob/main/ft_memmove.c) | `void  *ft_memmove(void *dest, const void *src, size_t n);` | _copies memory area_
+  [ft_memcpy](https://github.com/teresa-chow/42-libft/blob/main/ft_memcpy.c) | `void  *ft_memcpy(void *dest, const void *src, size_t n);` | _copies memory area (can only copy in forward direction)_
+  [ft_memmove](https://github.com/teresa-chow/42-libft/blob/main/ft_memmove.c) | `void  *ft_memmove(void *dest, const void *src, size_t n);` | _copies memory area (can copy in both forward and backward direction)_
   [ft_strlcpy](https://github.com/teresa-chow/42-libft/blob/main/ft_strlcpy.c) | `size_t  ft_strlcpy(char *dst, const char *src, size_t size);` | _size-bounded string copying_
   [ft_strlcat](https://github.com/teresa-chow/42-libft/blob/main/ft_strlcat.c) | `size_t  ft_strlcat(char *dst, const char *src, size_t size);` | _size-bounded string concatenation_
   [ft_toupper](https://github.com/teresa-chow/42-libft/blob/main/ft_toupper.c) | `int  ft_toupper(int c);` | _converts a lowercase letter to uppercase_
