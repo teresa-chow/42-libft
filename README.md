@@ -1,7 +1,7 @@
 # Libft
 ![Static Badge](https://img.shields.io/badge/42%20School-Rank%200-%2315bbbb)
 
-_Libft is the 1st project of the [Common Core curriculum](https://42.fr/en/the-program/software-engineer-degree/) at 42. It's about coding a C library: specifically, recoding a few functions of the C standard library, as well as some other utility functions. Future projects will rely on this library._
+_Libft is the 1st project of the <a href="https://42.fr/en/the-program/software-engineer-degree/" target="_blank">Common Core curriculum</a> at 42. It's about coding a C library: specifically, recoding a few functions of the C standard library, as well as some other utility functions. Future projects will rely on this library._
 ___
 
 
@@ -45,7 +45,7 @@ ___
 </br>
 
 # :book: Subject
-[:page_facing_up: libft subject EN [PDF]](https://github.com/teresa-chow/42-libft/blob/main/en_libft_2023.pdf)
+:page_facing_up: <a href="https://github.com/teresa-chow/42-libft/blob/main/en_libft_2023.pdf" target="_blank">libft subject EN [PDF]</a>
 
 </br>
 
@@ -121,6 +121,6 @@ ___
 </br>
 
 ### License
-This work is published under the terms of [42 Unlicense](https://github.com/teresa-chow/42-libft/blob/main/LICENSE).
+This work is published under the terms of <a href="https://github.com/teresa-chow/42-libft/blob/main/LICENSE" target="_blank">42 Unlicense</a>.
 
 [⬆ back to top](#libft)
