@@ -15,6 +15,11 @@ ___
 # :book: Subject
 [:page_facing_up: libft subject EN [PDF]](https://github.com/teresa-chow/42-libft/files/13047809/en_libft_2023.pdf)
 
+</br>
+
+>[!NOTE]
+>This codebase follows the applicable programming standard at 42, known as the Norm.
+
 <details open>
   <summary><h2>Mandatory part I – Libc functions</h2></summary>
 
