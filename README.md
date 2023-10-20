@@ -84,26 +84,38 @@ ___
   ft_lstmap | `t_list  *ft_lstmap(t_list *lst, void *(*f)(void *),void (*del)(void *));` |
 </details>
 
-
 ___
 
 </br>
 
 # :compass: How to use
-I.  Clone repository
-```bash
-git clone git@github.com:teresa-chow/42-libft.git
-```
+## Setup and compilation
 
-II. Go inside project directory and run `make`
-```bash
-cd libft
-make
-```
-III. To use the library in your code, `#include` the following header
-```c
-#include "libft.h"
-```
+1. Clone repository
+    ```bash
+    git clone git@github.com:teresa-chow/42-libft.git
+    ```
+
+2. Go inside project directory and run `make`
+    ```bash
+    cd libft
+    make
+    ```
+3. To use the library in your code, `#include` the following header
+    ```c
+    #include "libft.h"
+    ```
+
+</br>
+
+## Makefile rules
+
+Command | Description
+--|--
+`make` | to compile libft with mandatory files
+`make clean` | to clean the working directory of object files `*.o`
+`make fclean` | to clean the working directory of object and archive files `*.o` / `*.a`
+
 ___
 
 </br>
