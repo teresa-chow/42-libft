@@ -6,13 +6,13 @@ ___
 
 
 ### Table of contents
-[How to use](#compass-how-to-use) · [Subject](#book-subject) · [Part 1](#mandatory-part-i--libc-functions) · [Part 2](#mandatory-part-ii--additional-functions) · [Bonus](#bonus-part) · [License](#license)
+[Usage](#compass-usage) · [Subject](#book-subject) · [Part 1](#mandatory-part-i--libc-functions) · [Part 2](#mandatory-part-ii--additional-functions) · [Bonus](#bonus-part) · [License](#license)
 
 ___
 
 </br>
 
-# :compass: How to use
+# :compass: Usage
 ## Setup and compilation
 
 1. Clone repository
