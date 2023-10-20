@@ -87,7 +87,7 @@ ___
 # :compass: How to use
 I.  Clone repository
 ```bash
-git clone
+git clone git@github.com:teresa-chow/42-libft.git
 ```
 
 II. Go inside project directory and run `make`
