@@ -45,7 +45,7 @@ ___
 </br>
 
 # :book: Subject
-[:page_facing_up: libft subject EN [PDF]](https://github.com/teresa-chow/42-libft/files/13047809/en_libft_2023.pdf)
+[:page_facing_up: libft subject EN [PDF]](https://github.com/teresa-chow/42-libft/blob/main/en_libft_2023.pdf)
 
 </br>
 
@@ -77,8 +77,8 @@ ___
   [memchr](https://github.com/teresa-chow/42-libft/blob/main/ft_memchr.c) | `void  *memchr(const void *s, int c, size_t n)` | _scans memory for a character_
   [strnstr](https://github.com/teresa-chow/42-libft/blob/main/ft_strnstr.c) | `char  *strnstr(const char *big, const char *little, size_t len)` | _locates a substring in a string_
   [atoi](https://github.com/teresa-chow/42-libft/blob/main/ft_atoi.c) | `int  ft_atoi(const char *nptr)` | _converts a string to an integer_
-  [calloc]() | `void  *ft_calloc(size_t nmemb, size_t size);` | _allocates dynamic memory: the memory is set to zero_
-  [strdup]() | `char *ft_strdup(const char *s);` | _duplicates a string_
+  [calloc](https://github.com/teresa-chow/42-libft/blob/main/ft_calloc.c) | `void  *ft_calloc(size_t nmemb, size_t size);` | _allocates dynamic memory: the memory is set to zero_
+  [strdup](https://github.com/teresa-chow/42-libft/blob/main/ft_strdup.c) | `char *ft_strdup(const char *s);` | _duplicates a string_
 </details>
 
 <details open>
@@ -93,10 +93,10 @@ ___
   ft_itoa | `char  *ft_itoa(int n);` |
   ft_strmapi | `char  *ft_strmapi(char const *s, char (*f)(unsigned int, char));` |
   ft_striteri | `void  ft_striteri(char *s, void (*f)(unsigned int, char*));` |
-  ft_putchar_fd | `void  ft_putchar_fd(char c, int fd);` |
-  ft_putstr_fd | `void  ft_putstr_fd(char *s, int fd);` |
+  [ft_putchar_fd](https://github.com/teresa-chow/42-libft/blob/main/ft_putchar_fd.c) | `void  ft_putchar_fd(char c, int fd);` |
+  [ft_putstr_fd](https://github.com/teresa-chow/42-libft/blob/main/ft_putstr_fd.c) | `void  ft_putstr_fd(char *s, int fd);` |
   ft_putendl_fd | `void  ft_putendl_fd(char *s, int fd);` |
-  ft_putnbr_fd | `void  ft_putnbr_fd(int n, int fd);` |
+  [ft_putnbr_fd](https://github.com/teresa-chow/42-libft/blob/main/ft_putnbr_fd.c) | `void  ft_putnbr_fd(int n, int fd);` |
 </details>
 
 
