@@ -6,9 +6,12 @@ ___
 
 
 ### Table of contents
-[Subject](#book-subject) · [Part 1](#mandatory-part-i--libc-functions) · [Part 2](#mandatory-part-ii--additional-functions) · [Bonus](#bonus-part) · [Usage](#compass-usage) · [Footnotes](#footnotes)
+[Subject](#book-subject) · [Part 1](#mandatory-part-i--libc-functions) · [Part 2](#mandatory-part-ii--additional-functions) · [Bonus](#bonus-part) · [How to use](#compass-how-to-use) · [License](#license)
 
 ___
+
+</br>
+
 # :book: Subject
 [:page_facing_up: libft subject EN [PDF]](https://github.com/teresa-chow/42-libft/files/13047809/en_libft_2023.pdf)
 
@@ -76,11 +79,31 @@ ___
   ft_lstmap | `t_list  *ft_lstmap(t_list *lst, void *(*f)(void *),void (*del)(void *));` |
 </details>
 
+
 ___
 
-# :compass: Usage
+</br>
+
+# :compass: How to use
+I.  Clone repository
+```bash
+git clone
+```
+
+II. Go inside project directory and run `make`
+```bash
+cd libft
+make
+```
+III. To use the library in your code, `#include` the following header
+```c
+#include "libft.h"
+```
 ___
-### Footnotes
-This work is published under the terms of **[42 Unlicense](https://github.com/teresa-chow/42-libft/blob/main/LICENSE)**.
+
+</br>
+
+### License
+This work is published under the terms of [42 Unlicense](https://github.com/teresa-chow/42-libft/blob/main/LICENSE).
 
 [⬆ back to top](#42-libft)
