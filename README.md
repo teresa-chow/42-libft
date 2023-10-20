@@ -6,7 +6,39 @@ ___
 
 
 ### Table of contents
-[Subject](#book-subject) · [Part 1](#mandatory-part-i--libc-functions) · [Part 2](#mandatory-part-ii--additional-functions) · [Bonus](#bonus-part) · [How to use](#compass-how-to-use) · [License](#license)
+[How to use](#compass-how-to-use) · [Subject](#book-subject) · [Part 1](#mandatory-part-i--libc-functions) · [Part 2](#mandatory-part-ii--additional-functions) · [Bonus](#bonus-part) · [License](#license)
+
+___
+
+</br>
+
+# :compass: How to use
+## Setup and compilation
+
+1. Clone repository
+    ```bash
+    git clone git@github.com:teresa-chow/42-libft.git
+    ```
+
+2. Go inside project directory and run `make`
+    ```bash
+    cd libft
+    make
+    ```
+3. To use the library in your code, `#include` the following header
+    ```c
+    #include "libft.h"
+    ```
+
+</br>
+
+## Makefile rules
+
+Command | Description
+--|--
+`make` | to compile libft with mandatory files
+`make clean` | to clean the working directory of object files `*.o`
+`make fclean` | to clean the working directory of object and archive files `*.o` / `*.a`
 
 ___
 
@@ -83,38 +115,6 @@ ___
   ft_lstiter | `void  ft_lstiter(t_list *lst, void (*f)(void *));` |
   ft_lstmap | `t_list  *ft_lstmap(t_list *lst, void *(*f)(void *),void (*del)(void *));` |
 </details>
-
-___
-
-</br>
-
-# :compass: How to use
-## Setup and compilation
-
-1. Clone repository
-    ```bash
-    git clone git@github.com:teresa-chow/42-libft.git
-    ```
-
-2. Go inside project directory and run `make`
-    ```bash
-    cd libft
-    make
-    ```
-3. To use the library in your code, `#include` the following header
-    ```c
-    #include "libft.h"
-    ```
-
-</br>
-
-## Makefile rules
-
-Command | Description
---|--
-`make` | to compile libft with mandatory files
-`make clean` | to clean the working directory of object files `*.o`
-`make fclean` | to clean the working directory of object and archive files `*.o` / `*.a`
 
 ___
 
