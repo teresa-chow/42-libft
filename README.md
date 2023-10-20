@@ -1,4 +1,6 @@
 # 42-libft
+![Static Badge](https://img.shields.io/badge/42%20School-Rank%200-%2315bbbb)
+
 _Libft is the 1st subject of the [Common Core curriculum](https://42.fr/en/the-program/software-engineer-degree/) at 42. The aim of this project is to recode a few functions of the C standard library, as well as some other utility functions._
 ___
 
