@@ -123,4 +123,6 @@ ___
 ### License
 This work is published under the terms of [42 Unlicense](https://github.com/teresa-chow/42-libft/blob/main/LICENSE).
 
+</br>
+
 [⬆ back to top](#libft)
