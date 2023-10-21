@@ -93,10 +93,10 @@ ___
   ft_itoa | `char  *ft_itoa(int n);` |
   ft_strmapi | `char  *ft_strmapi(char const *s, char (*f)(unsigned int, char));` |
   ft_striteri | `void  ft_striteri(char *s, void (*f)(unsigned int, char*));` |
-  [ft_putchar_fd](https://github.com/teresa-chow/42-libft/blob/main/ft_putchar_fd.c) | `void  ft_putchar_fd(char c, int fd);` | _outputs character `c` to given file descriptor_
-  [ft_putstr_fd](https://github.com/teresa-chow/42-libft/blob/main/ft_putstr_fd.c) | `void  ft_putstr_fd(char *s, int fd);` | _outputs string `s`to given file descriptor_
+  [ft_putchar_fd](https://github.com/teresa-chow/42-libft/blob/main/ft_putchar_fd.c) | `void  ft_putchar_fd(char c, int fd);` | _outputs character `c` to given file descriptor `fd`_
+  [ft_putstr_fd](https://github.com/teresa-chow/42-libft/blob/main/ft_putstr_fd.c) | `void  ft_putstr_fd(char *s, int fd);` | _outputs string `s` to given file descriptor `fd`_
   ft_putendl_fd | `void  ft_putendl_fd(char *s, int fd);` |
-  [ft_putnbr_fd](https://github.com/teresa-chow/42-libft/blob/main/ft_putnbr_fd.c) | `void  ft_putnbr_fd(int n, int fd);` | _outputs integer `n`to given file descriptor_
+  [ft_putnbr_fd](https://github.com/teresa-chow/42-libft/blob/main/ft_putnbr_fd.c) | `void  ft_putnbr_fd(int n, int fd);` | _outputs integer `n` to given file descriptor `fd`_
 </details>
 
 
