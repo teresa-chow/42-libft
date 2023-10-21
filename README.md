@@ -34,7 +34,7 @@ ___
 
 ## Makefile rules
 
-Command | Description
+Command | Purpose
 --|--
 `make` | to compile libft with mandatory files
 `make clean` | to clean the working directory of object files `*.o`
@@ -55,7 +55,7 @@ ___
 <details open>
   <summary><h2>Mandatory part I – Libc functions</h2></summary>
 
-  Name | Prototype | ...
+  Name | Prototype | Purpose
   --|--|--
   [isalpha](https://github.com/teresa-chow/42-libft/blob/main/ft_isalpha.c) | `int  isalpha(int c);` | _checks for alphabetic character_
   [isdigit](https://github.com/teresa-chow/42-libft/blob/main/ft_isdigit.c) | `int  isdigit(int c);` | _checks for digit (`0` through `9`)_
@@ -84,7 +84,7 @@ ___
 <details open>
   <summary><h2>Mandatory part II – Additional functions</h2></summary>
 
-  Name | Prototype | ...
+  Name | Prototype | Purpose
   --|--|--
   ft_substr | `char  *ft_substr(char const *s, unsigned int start, size_t len);` |
   ft_strjoin | `char  *ft_strjoin(char const *s1, char const *s2);` |
@@ -103,7 +103,7 @@ ___
 <details open>
   <summary><h2>Bonus part</h2></summary>
 
-  Name | Prototype | ...
+  Name | Prototype | Purpose
   --|--|--
   ft_lstnew | `t_list  *ft_lstnew(void *content);` |
   ft_lstadd_front | `void  ft_lstadd_front(t_list **lst, t_list *new);` |
