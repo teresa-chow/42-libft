@@ -57,28 +57,28 @@ ___
 
   Name | Prototype | Purpose
   --|--|--
-  [isalpha](https://github.com/teresa-chow/42-libft/blob/main/ft_isalpha.c) | `int  isalpha(int c);` | _check for alphabetic character_
-  [isdigit](https://github.com/teresa-chow/42-libft/blob/main/ft_isdigit.c) | `int  isdigit(int c);` | _check for digit (`0` through `9`)_
-  [isalnum](https://github.com/teresa-chow/42-libft/blob/main/ft_isalnum.c) | `int  isalnum(int c);` | _check for alphanumeric character_
-  [isascii](https://github.com/teresa-chow/42-libft/blob/main/ft_isascii.c) | `int  isascii(int c);` | _check whether `c` is a 7-bit `unsigned char` that fits into the ASCII character set_
-  [isprint](https://github.com/teresa-chow/42-libft/blob/main/ft_isprint.c) | `int  isprint(int c);` | _check for any printable character (including `SPACE`)_
-  [strlen](https://github.com/teresa-chow/42-libft/blob/main/ft_strlen.c) | `size_t  strlen(const char *s);` | _calculate the length of a string_
-  [memset](https://github.com/teresa-chow/42-libft/blob/main/ft_memset.c) | `void  *memset(void *s, int c, size_t n);` | _fill memory with a constant byte_
-  [bzero](https://github.com/teresa-chow/42-libft/blob/main/ft_bzero.c) | `void  bzero(void *s, size_t n);` | _write zero-valued bytes_
-  [memcpy](https://github.com/teresa-chow/42-libft/blob/main/ft_memcpy.c) | `void  *memcpy(void *dest, const void *src, size_t n);` | _copy memory area (can only copy in forward direction)_
-  [memmove](https://github.com/teresa-chow/42-libft/blob/main/ft_memmove.c) | `void  *memmove(void *dest, const void *src, size_t n);` | _copy memory area (can copy in both forward and backward direction)_
-  [strlcpy](https://github.com/teresa-chow/42-libft/blob/main/ft_strlcpy.c) | `size_t  strlcpy(char *dst, const char *src, size_t size);` | _size-bounded string copying_
-  [strlcat](https://github.com/teresa-chow/42-libft/blob/main/ft_strlcat.c) | `size_t  strlcat(char *dst, const char *src, size_t size);` | _size-bounded string concatenation_
-  [toupper](https://github.com/teresa-chow/42-libft/blob/main/ft_toupper.c) | `int  toupper(int c);` | _convert a lowercase letter to uppercase_
-  [tolower](https://github.com/teresa-chow/42-libft/blob/main/ft_tolower.c) | `int  tolower(int c);` | _convert an uppercase letter to lowercase_
-  [strchr](https://github.com/teresa-chow/42-libft/blob/main/ft_strchr.c) | `char  *strchr(const char *s, int c)` | _locate a character in a string (1st occurrence)_
-  [strrchr](https://github.com/teresa-chow/42-libft/blob/main/ft_strrchr.c) | `char  *strrchr(const char *s, int c)` | _locate a character in a string (last occurrence)_
-  [strncmp](https://github.com/teresa-chow/42-libft/blob/main/ft_strncmp.c) | `int  strncmp(const char *s1, const char *s2, size_t n)` | _compare two strings_
-  [memchr](https://github.com/teresa-chow/42-libft/blob/main/ft_memchr.c) | `void  *memchr(const void *s, int c, size_t n)` | _scan memory for a character_
-  [strnstr](https://github.com/teresa-chow/42-libft/blob/main/ft_strnstr.c) | `char  *strnstr(const char *big, const char *little, size_t len)` | _locate a substring in a string_
-  [atoi](https://github.com/teresa-chow/42-libft/blob/main/ft_atoi.c) | `int  ft_atoi(const char *nptr)` | _convert a string to an integer_
-  [calloc](https://github.com/teresa-chow/42-libft/blob/main/ft_calloc.c) | `void  *ft_calloc(size_t nmemb, size_t size);` | _allocate dynamic memory: the memory is set to zero_
-  [strdup](https://github.com/teresa-chow/42-libft/blob/main/ft_strdup.c) | `char *ft_strdup(const char *s);` | _duplicate a string_
+  [isalpha](./ft_isalpha.c) | `int  isalpha(int c);` | _check for alphabetic character_
+  [isdigit](./ft_isdigit.c) | `int  isdigit(int c);` | _check for digit (`0` through `9`)_
+  [isalnum](./ft_isalnum.c) | `int  isalnum(int c);` | _check for alphanumeric character_
+  [isascii](./ft_isascii.c) | `int  isascii(int c);` | _check whether `c` is a 7-bit `unsigned char` that fits into the ASCII character set_
+  [isprint](./ft_isprint.c) | `int  isprint(int c);` | _check for any printable character (including `SPACE`)_
+  [strlen](./ft_strlen.c) | `size_t  strlen(const char *s);` | _calculate the length of a string_
+  [memset](./ft_memset.c) | `void  *memset(void *s, int c, size_t n);` | _fill memory with a constant byte_
+  [bzero](./ft_bzero.c) | `void  bzero(void *s, size_t n);` | _write zero-valued bytes_
+  [memcpy](./ft_memcpy.c) | `void  *memcpy(void *dest, const void *src, size_t n);` | _copy memory area (can only copy in forward direction)_
+  [memmove](./ft_memmove.c) | `void  *memmove(void *dest, const void *src, size_t n);` | _copy memory area (can copy in both forward and backward direction)_
+  [strlcpy](./ft_strlcpy.c) | `size_t  strlcpy(char *dst, const char *src, size_t size);` | _size-bounded string copying_
+  [strlcat](./ft_strlcat.c) | `size_t  strlcat(char *dst, const char *src, size_t size);` | _size-bounded string concatenation_
+  [toupper](./ft_toupper.c) | `int  toupper(int c);` | _convert a lowercase letter to uppercase_
+  [tolower](./ft_tolower.c) | `int  tolower(int c);` | _convert an uppercase letter to lowercase_
+  [strchr](./ft_strchr.c) | `char  *strchr(const char *s, int c)` | _locate a character in a string (1st occurrence)_
+  [strrchr](./ft_strrchr.c) | `char  *strrchr(const char *s, int c)` | _locate a character in a string (last occurrence)_
+  [strncmp](./ft_strncmp.c) | `int  strncmp(const char *s1, const char *s2, size_t n)` | _compare two strings_
+  [memchr](./ft_memchr.c) | `void  *memchr(const void *s, int c, size_t n)` | _scan memory for a character_
+  [strnstr](./ft_strnstr.c) | `char  *strnstr(const char *big, const char *little, size_t len)` | _locate a substring in a string_
+  [atoi](./ft_atoi.c) | `int  ft_atoi(const char *nptr)` | _convert a string to an integer_
+  [calloc](./ft_calloc.c) | `void  *ft_calloc(size_t nmemb, size_t size);` | _allocate dynamic memory: the memory is set to zero_
+  [strdup](./ft_strdup.c) | `char *ft_strdup(const char *s);` | _duplicate a string_
 </details>
 
 <details open>
@@ -86,17 +86,17 @@ ___
 
   Name | Prototype | Purpose
   --|--|--
-  ft_substr | `char  *ft_substr(char const *s, unsigned int start, size_t len);` |
-  ft_strjoin | `char  *ft_strjoin(char const *s1, char const *s2);` |
+  [ft_substr](./ft_substr.c) | `char  *ft_substr(char const *s, unsigned int start, size_t len);` |
+  [ft_strjoin](./ft_strjoin.c) | `char  *ft_strjoin(char const *s1, char const *s2);` |
   ft_strtrim | `char  *ft_strtrim(char const *s1, char const *set);` |
   ft_split | `char  **ft_split(char const *s, char c);` |
   ft_itoa | `char  *ft_itoa(int n);` |
   ft_strmapi | `char  *ft_strmapi(char const *s, char (*f)(unsigned int, char));` |
   ft_striteri | `void  ft_striteri(char *s, void (*f)(unsigned int, char*));` |
-  [ft_putchar_fd](https://github.com/teresa-chow/42-libft/blob/main/ft_putchar_fd.c) | `void  ft_putchar_fd(char c, int fd);` | _output character `c` to given file descriptor `fd`_
-  [ft_putstr_fd](https://github.com/teresa-chow/42-libft/blob/main/ft_putstr_fd.c) | `void  ft_putstr_fd(char *s, int fd);` | _output string `s` to given file descriptor `fd`_
-  ft_putendl_fd | `void  ft_putendl_fd(char *s, int fd);` |
-  [ft_putnbr_fd](https://github.com/teresa-chow/42-libft/blob/main/ft_putnbr_fd.c) | `void  ft_putnbr_fd(int n, int fd);` | _output integer `n` to given file descriptor `fd`_
+  [ft_putchar_fd](./ft_putchar_fd.c) | `void  ft_putchar_fd(char c, int fd);` | _output character `c` to given file descriptor `fd`_
+  [ft_putstr_fd](./ft_putstr_fd.c) | `void  ft_putstr_fd(char *s, int fd);` | _output string `s` to given file descriptor `fd`_
+  [ft_putendl_fd](./ft_putendl_fd.c) | `void  ft_putendl_fd(char *s, int fd);` |
+  [ft_putnbr_fd](./ft_putnbr_fd.c) | `void  ft_putnbr_fd(int n, int fd);` | _output integer `n` to given file descriptor `fd`_
 </details>
 
 
