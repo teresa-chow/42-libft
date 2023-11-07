@@ -55,7 +55,7 @@ ___
 <details open>
   <summary><h2>Mandatory part I – Libc functions</h2></summary>
 
-  Name | Prototype | Purpose
+  Name | Prototype | Description
   --|--|--
   [isalpha](./ft_isalpha.c) | `int  isalpha(int c);` | _check for alphabetic character_
   [isdigit](./ft_isdigit.c) | `int  isdigit(int c);` | _check for digit (`0` through `9`)_
@@ -84,9 +84,9 @@ ___
 <details open>
   <summary><h2>Mandatory part II – Additional functions</h2></summary>
 
-  Name | Prototype | Purpose
+  Name | Prototype | Description
   --|--|--
-  [ft_substr](./ft_substr.c) | `char  *ft_substr(char const *s, unsigned int start, size_t len);` |
+  [ft_substr](./ft_substr.c) | `char  *ft_substr(char const *s, unsigned int start, size_t len);` | _allocate (with `malloc()`) and return a substring from string `s`, beginning at index `start` and of max. size `len`_
   [ft_strjoin](./ft_strjoin.c) | `char  *ft_strjoin(char const *s1, char const *s2);` |
   [ft_strtrim](./ft_strtrim.c) | `char  *ft_strtrim(char const *s1, char const *set);` |
   [ft_split](./ft_split.c) | `char  **ft_split(char const *s, char c);` |
@@ -103,7 +103,7 @@ ___
 <details open>
   <summary><h2>Bonus part</h2></summary>
 
-  Name | Prototype | Purpose
+  Name | Prototype | Description
   --|--|--
   ft_lstnew | `t_list  *ft_lstnew(void *content);` |
   ft_lstadd_front | `void  ft_lstadd_front(t_list **lst, t_list *new);` |
