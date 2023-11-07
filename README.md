@@ -86,7 +86,7 @@ ___
 
   Name | Prototype | Description
   --|--|--
-  [ft_substr](./ft_substr.c) | `char  *ft_substr(char const *s, unsigned int start, size_t len);` | _allocate (with `malloc()`) and return a substring from string `s`, beginning at index `start` and of max. size `len`_
+  [ft_substr](./ft_substr.c) | `char  *ft_substr(char const *s, unsigned int start, size_t len);` | _allocate with `malloc()` and return a substring from string `s` (beginning at index `start` and of max. size `len`)_
   [ft_strjoin](./ft_strjoin.c) | `char  *ft_strjoin(char const *s1, char const *s2);` |
   [ft_strtrim](./ft_strtrim.c) | `char  *ft_strtrim(char const *s1, char const *set);` |
   [ft_split](./ft_split.c) | `char  **ft_split(char const *s, char c);` |
