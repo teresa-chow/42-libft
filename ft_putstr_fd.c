@@ -6,7 +6,7 @@
 /*   By: tchow-so <tchow-so@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/20 13:35:23 by tchow-so          #+#    #+#             */
-/*   Updated: 2023/10/20 13:45:30 by tchow-so         ###   ########.fr       */
+/*   Updated: 2023/11/04 10:02:43 by tchow-so         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@ void	ft_putstr_fd(char *s, int fd)
 	int	i;
 
 	i = 0;
-	while (s[i])
+	while (s[i] != '\0')
 	{
 		write(fd, &s[i], 1);
 		i++;
