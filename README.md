@@ -88,11 +88,11 @@ ___
   --|--|--
   [ft_substr](./ft_substr.c) | `char  *ft_substr(char const *s, unsigned int start, size_t len);` |
   [ft_strjoin](./ft_strjoin.c) | `char  *ft_strjoin(char const *s1, char const *s2);` |
-  ft_strtrim | `char  *ft_strtrim(char const *s1, char const *set);` |
-  ft_split | `char  **ft_split(char const *s, char c);` |
-  ft_itoa | `char  *ft_itoa(int n);` |
-  ft_strmapi | `char  *ft_strmapi(char const *s, char (*f)(unsigned int, char));` |
-  ft_striteri | `void  ft_striteri(char *s, void (*f)(unsigned int, char*));` |
+  [ft_strtrim](./ft_strtrim.c) | `char  *ft_strtrim(char const *s1, char const *set);` |
+  [ft_split](./ft_split.c) | `char  **ft_split(char const *s, char c);` |
+  [ft_itoa](./ft_itoa.c) | `char  *ft_itoa(int n);` |
+  [ft_strmapi](./ft_strmapi.c) | `char  *ft_strmapi(char const *s, char (*f)(unsigned int, char));` |
+  [ft_striteri](./ft_striteri.c) | `void  ft_striteri(char *s, void (*f)(unsigned int, char*));` |
   [ft_putchar_fd](./ft_putchar_fd.c) | `void  ft_putchar_fd(char c, int fd);` | _output character `c` to given file descriptor `fd`_
   [ft_putstr_fd](./ft_putstr_fd.c) | `void  ft_putstr_fd(char *s, int fd);` | _output string `s` to given file descriptor `fd`_
   [ft_putendl_fd](./ft_putendl_fd.c) | `void  ft_putendl_fd(char *s, int fd);` |
