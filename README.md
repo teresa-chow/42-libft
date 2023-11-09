@@ -93,7 +93,7 @@ ___
   [ft_strtrim](./ft_strtrim.c) | `char  *ft_strtrim(char const *s1, char const *set);` | _allocate with `malloc()` and return a copy of `s1` with the characters specified in `set` removed from the beginning and the end of the string_
   [ft_split](./ft_split.c) | `char  **ft_split(char const *s, char c);` | _allocate with `malloc()` and return an array of strings obtained by splitting `s` using the character `c` as a delimiter. The array must end with a `NULL` pointer_
   [ft_itoa](./ft_itoa.c) | `char  *ft_itoa(int n);` | _allocate with `malloc()` and return a string representing the integer (positive, zero or negative) received as an argument_
-  [ft_strmapi](./ft_strmapi.c) | `char  *ft_strmapi(char const *s, char (*f)(unsigned int, char));` | _apply function `f` to each character of the string `s`, and passing its index as first argument to create a new string (with `malloc()`) resulting from successive applications of ’f’_
+  [ft_strmapi](./ft_strmapi.c) | `char  *ft_strmapi(char const *s, char (*f)(unsigned int, char));` | _apply function `f` to each character of the string `s`, and passing its index as first argument to create a new string (with `malloc()`) resulting from successive applications of `f`_
   [ft_striteri](./ft_striteri.c) | `void  ft_striteri(char *s, void (*f)(unsigned int, char*));` | _apply function `f` on each character of the string `s` passed as argument, passing its index as first argument_
   [ft_putchar_fd](./ft_putchar_fd.c) | `void  ft_putchar_fd(char c, int fd);` | _output character `c` to given file descriptor `fd`_
   [ft_putstr_fd](./ft_putstr_fd.c) | `void  ft_putstr_fd(char *s, int fd);` | _output string `s` to given file descriptor `fd`_
@@ -107,14 +107,15 @@ ___
 
   Name | Prototype | Description
   --|--|--
-  [ft_lstnew](./ft_lstnew) | `t_list  *ft_lstnew(void *content);` |
-  [ft_lstadd_front](./ft_lstadd_front) | `void  ft_lstadd_front(t_list **lst, t_list *new);` |
-  [ft_lstsize](./ft_lstsize) | `int  ft_lstsize(t_list *lst);` |
-  [ft_lstlast](./ft_lstlast) | `t_list  *ft_lstlast(t_list *lst);` |
-  [ft_lstadd_back](./ft_lstadd_back) | `void  ft_lstadd_back(t_list **lst, t_list *new);` |
-  [ft_lstdelone](./ft_lstdelone) | `void  ft_lstdelone(t_list *lst, void (*del)(void*));` |
-  [ft_lstclear](./ft_lstclear) | `void  ft_lstclear(t_list **lst, void (*del)(void*));` |
-  [ft_lstiter](./ft_lstiter) | `void  ft_lstiter(t_list *lst, void (*f)(void *));` |
+  [ft_lstnew](./ft_lstnew) | `t_list  *ft_lstnew(void *content);` | _allocate with `malloc()` and return a new node. Member variable `content` is initialized with the value of the parameter `content`; variable `next` is initialized to `NULL`_
+  [ft_lstadd_front](./ft_lstadd_front) | `void  ft_lstadd_front(t_list **lst, t_list *new);` | _add `new` node at the beginning of the list_
+  [ft_lstsize](./ft_lstsize) | `int  ft_lstsize(t_list *lst);` | _count number of nodes in a list_
+  [ft_lstlast](./ft_lstlast) | `t_list  *ft_lstlast(t_list *lst);` | _return last node of the list_
+  [ft_lstadd_back](./ft_lstadd_back) | `void  ft_lstadd_back(t_list **lst, t_list *new);` | _add `new` node at end of the list_
+  [ft_lstdelone](./ft_lstdelone) | `void  ft_lstdelone(t_list *lst, void (*del)(void*));` | _free the memory of node `lst`’s `content` using function `del` given as a parameter and `free()` the node; note: memory of `next` must not be freed_
+  [ft_lstclear](./ft_lstclear) | `void  ft_lstclear(t_list **lst, void (*del)(void*));` | _delete and free node `*lst` and every successor of that node, using the function `del`
+and `free()`; finally, the pointer to the list must be set to `NULL`_
+  [ft_lstiter](./ft_lstiter) | `void  ft_lstiter(t_list *lst, void (*f)(void *));` | _iterate the list `lst` and apply function `f` on the `content` of each node_
   ft_lstmap | `t_list  *ft_lstmap(t_list *lst, void *(*f)(void *),void (*del)(void *));` |
 </details>
 
