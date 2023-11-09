@@ -89,15 +89,15 @@ ___
   Name | Prototype | Description
   --|--|--
   [ft_substr](./ft_substr.c) | `char  *ft_substr(char const *s, unsigned int start, size_t len);` | _allocate with `malloc()` and return a substring from string `s` (beginning at index `start` and of max. size `len`)_
-  [ft_strjoin](./ft_strjoin.c) | `char  *ft_strjoin(char const *s1, char const *s2);` |
-  [ft_strtrim](./ft_strtrim.c) | `char  *ft_strtrim(char const *s1, char const *set);` |
-  [ft_split](./ft_split.c) | `char  **ft_split(char const *s, char c);` |
-  [ft_itoa](./ft_itoa.c) | `char  *ft_itoa(int n);` |
-  [ft_strmapi](./ft_strmapi.c) | `char  *ft_strmapi(char const *s, char (*f)(unsigned int, char));` |
-  [ft_striteri](./ft_striteri.c) | `void  ft_striteri(char *s, void (*f)(unsigned int, char*));` |
+  [ft_strjoin](./ft_strjoin.c) | `char  *ft_strjoin(char const *s1, char const *s2);` | _allocate with `malloc()` and return a new string, which is the result of the concatenation of `s1` and `s2`_
+  [ft_strtrim](./ft_strtrim.c) | `char  *ft_strtrim(char const *s1, char const *set);` | _allocate with `malloc()` and return a copy of `s1` with the characters specified in `set` removed from the beginning and the end of the string_
+  [ft_split](./ft_split.c) | `char  **ft_split(char const *s, char c);` | _allocate with `malloc()` and return an array of strings obtained by splitting `s` using the character `c` as a delimiter. The array must end with a `NULL` pointer_
+  [ft_itoa](./ft_itoa.c) | `char  *ft_itoa(int n);` | _allocate with `malloc()` and return a string representing the integer (positive, zero or negative) received as an argument_
+  [ft_strmapi](./ft_strmapi.c) | `char  *ft_strmapi(char const *s, char (*f)(unsigned int, char));` | _apply function `f` to each character of the string `s`, and passing its index as first argument to create a new string (with `malloc()`) resulting from successive applications of ’f’_
+  [ft_striteri](./ft_striteri.c) | `void  ft_striteri(char *s, void (*f)(unsigned int, char*));` | _apply function `f` on each character of the string `s` passed as argument, passing its index as first argument_
   [ft_putchar_fd](./ft_putchar_fd.c) | `void  ft_putchar_fd(char c, int fd);` | _output character `c` to given file descriptor `fd`_
   [ft_putstr_fd](./ft_putstr_fd.c) | `void  ft_putstr_fd(char *s, int fd);` | _output string `s` to given file descriptor `fd`_
-  [ft_putendl_fd](./ft_putendl_fd.c) | `void  ft_putendl_fd(char *s, int fd);` |
+  [ft_putendl_fd](./ft_putendl_fd.c) | `void  ft_putendl_fd(char *s, int fd);` | _output string `s` to given file descriptor, followed by a newline_
   [ft_putnbr_fd](./ft_putnbr_fd.c) | `void  ft_putnbr_fd(int n, int fd);` | _output integer `n` to given file descriptor `fd`_
 </details>
 
