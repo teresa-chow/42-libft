@@ -37,8 +37,10 @@ ___
 Command | Purpose
 --|--
 `make` | to compile libft with mandatory files
+`make bonus` | to compile libft with bonus
 `make clean` | to clean the working directory of object files `*.o`
 `make fclean` | to clean the working directory of object and archive files `*.o` / `*.a`
+`make re` | to clean and re-compile
 
 ___
 
@@ -105,14 +107,14 @@ ___
 
   Name | Prototype | Description
   --|--|--
-  ft_lstnew | `t_list  *ft_lstnew(void *content);` |
-  ft_lstadd_front | `void  ft_lstadd_front(t_list **lst, t_list *new);` |
-  ft_lstsize | `int  ft_lstsize(t_list *lst);` |
-  ft_lstlast | `t_list  *ft_lstlast(t_list *lst);` |
-  ft_lstadd_back | `void  ft_lstadd_back(t_list **lst, t_list *new);` |
-  ft_lstdelone | `void  ft_lstdelone(t_list *lst, void (*del)(void*));` |
-  ft_lstclear | `void  ft_lstclear(t_list **lst, void (*del)(void*));` |
-  ft_lstiter | `void  ft_lstiter(t_list *lst, void (*f)(void *));` |
+  [ft_lstnew](./ft_lstnew) | `t_list  *ft_lstnew(void *content);` |
+  [ft_lstadd_front](./ft_lstadd_front) | `void  ft_lstadd_front(t_list **lst, t_list *new);` |
+  [ft_lstsize](./ft_lstsize) | `int  ft_lstsize(t_list *lst);` |
+  [ft_lstlast](./ft_lstlast) | `t_list  *ft_lstlast(t_list *lst);` |
+  [ft_lstadd_back](./ft_lstadd_back) | `void  ft_lstadd_back(t_list **lst, t_list *new);` |
+  [ft_lstdelone](./ft_lstdelone) | `void  ft_lstdelone(t_list *lst, void (*del)(void*));` |
+  [ft_lstclear](./ft_lstclear) | `void  ft_lstclear(t_list **lst, void (*del)(void*));` |
+  [ft_lstiter](./ft_lstiter) | `void  ft_lstiter(t_list *lst, void (*f)(void *));` |
   ft_lstmap | `t_list  *ft_lstmap(t_list *lst, void *(*f)(void *),void (*del)(void *));` |
 </details>
 
