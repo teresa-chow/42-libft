@@ -6,7 +6,7 @@
 #    By: tchow-so <tchow-so@student.42porto.com>    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/10/03 16:14:04 by tchow-so          #+#    #+#              #
-#    Updated: 2023/11/07 14:11:09 by tchow-so         ###   ########.fr        #
+#    Updated: 2023/11/09 15:18:43 by tchow-so         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -20,7 +20,11 @@ SRC = ft_isalpha.c ft_isdigit.c ft_isalnum.c ft_isascii.c ft_isprint.c \
 	ft_strtrim.c ft_split.c ft_itoa.c ft_strmapi.c ft_striteri.c \
 	ft_putchar_fd.c ft_putstr_fd.c ft_putendl_fd.c ft_putnbr_fd.c
 
+BONUS = ft_lstnew.c ft_lstadd_front.c ft_lstsize.c ft_lstlast.c \
+	ft_lstadd_back.c ft_lstdelone.c ft_lstclear.c ft_lstiter.c ft_lstmap.c
+
 OBJS =	$(SRC:.c=.o)
+BONUS_OBJS = $(BONUS:.c=.o)
 
 CC = cc
 RM = rm -f
@@ -36,12 +40,15 @@ all: $(NAME)
 $(NAME): $(OBJS)
 	$(AR) $(NAME) $(OBJS)
 
+bonus: $(OBJS) $(BONUS_OBJS)
+	$(AR) $(NAME) $(OBJS) $(BONUS_OBJS)
+
 clean:	
-	$(RM) $(OBJS)
+	$(RM) $(OBJS) $(BONUS_OBJS)
 
 fclean: clean
 	$(RM) $(NAME)
 
 re: fclean all
 
-.PHONY: all clean fclean re
+.PHONY: all bonus clean fclean re
