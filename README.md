@@ -107,14 +107,14 @@ ___
 
   Name | Prototype | Description
   --|--|--
-  [ft_lstnew](./ft_lstnew) | `t_list  *ft_lstnew(void *content);` | _allocate with `malloc()` and return a new node. Member variable `content` is initialized with the value of the parameter `content`; variable `next` is initialized to `NULL`_
-  [ft_lstadd_front](./ft_lstadd_front) | `void  ft_lstadd_front(t_list **lst, t_list *new);` | _add `new` node at the beginning of the list_
-  [ft_lstsize](./ft_lstsize) | `int  ft_lstsize(t_list *lst);` | _count number of nodes in a list_
-  [ft_lstlast](./ft_lstlast) | `t_list  *ft_lstlast(t_list *lst);` | _return last node of the list_
-  [ft_lstadd_back](./ft_lstadd_back) | `void  ft_lstadd_back(t_list **lst, t_list *new);` | _add `new` node at end of the list_
-  [ft_lstdelone](./ft_lstdelone) | `void  ft_lstdelone(t_list *lst, void (*del)(void*));` | _free the memory of node `lst`’s `content` using function `del` given as a parameter and `free()` the node; note: memory of `next` must not be freed_
-  [ft_lstclear](./ft_lstclear) | `void  ft_lstclear(t_list **lst, void (*del)(void*));` | _delete and free node `*lst` and every successor of that node, using the function `del` and `free()`; finally, the pointer to the list must be set to `NULL`_
-  [ft_lstiter](./ft_lstiter) | `void  ft_lstiter(t_list *lst, void (*f)(void *));` | _iterate the list `lst` and apply function `f` on the `content` of each node_
+  [ft_lstnew](./ft_lstnew.c) | `t_list  *ft_lstnew(void *content);` | _allocate with `malloc()` and return a new node. Member variable `content` is initialized with the value of the parameter `content`; variable `next` is initialized to `NULL`_
+  [ft_lstadd_front](./ft_lstadd_front.c) | `void  ft_lstadd_front(t_list **lst, t_list *new);` | _add `new` node at the beginning of the list_
+  [ft_lstsize](./ft_lstsize.c) | `int  ft_lstsize(t_list *lst);` | _count number of nodes in a list_
+  [ft_lstlast](./ft_lstlast.c) | `t_list  *ft_lstlast(t_list *lst);` | _return last node of the list_
+  [ft_lstadd_back](./ft_lstadd_back.c) | `void  ft_lstadd_back(t_list **lst, t_list *new);` | _add `new` node at end of the list_
+  [ft_lstdelone](./ft_lstdelone.c) | `void  ft_lstdelone(t_list *lst, void (*del)(void*));` | _free the memory of node `lst`’s `content` using function `del` given as a parameter and `free()` the node; note: memory of `next` must not be freed_
+  [ft_lstclear](./ft_lstclear.c) | `void  ft_lstclear(t_list **lst, void (*del)(void*));` | _delete and free node `*lst` and every successor of that node, using the function `del` and `free()`; finally, the pointer to the list must be set to `NULL`_
+  [ft_lstiter](./ft_lstiter.c) | `void  ft_lstiter(t_list *lst, void (*f)(void *));` | _iterate the list `lst` and apply function `f` on the `content` of each node_
   [ft_lstmap]() | `t_list  *ft_lstmap(t_list *lst, void *(*f)(void *),void (*del)(void *));` | _iterate list `lst` and apply function `f` on the `content` of each node; create a new list resulting of the successive applications of function `f`; `del` function is used to delete the `content` of a node if needed_
 </details>
 
