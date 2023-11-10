@@ -115,7 +115,8 @@ ___
   [ft_lstdelone](./ft_lstdelone) | `void  ft_lstdelone(t_list *lst, void (*del)(void*));` | _free the memory of node `lst`’s `content` using function `del` given as a parameter and `free()` the node; note: memory of `next` must not be freed_
   [ft_lstclear](./ft_lstclear) | `void  ft_lstclear(t_list **lst, void (*del)(void*));` | _delete and free node `*lst` and every successor of that node, using the function `del` and `free()`; finally, the pointer to the list must be set to `NULL`_
   [ft_lstiter](./ft_lstiter) | `void  ft_lstiter(t_list *lst, void (*f)(void *));` | _iterate the list `lst` and apply function `f` on the `content` of each node_
-  ft_lstmap | `t_list  *ft_lstmap(t_list *lst, void *(*f)(void *),void (*del)(void *));` |
+  ft_lstmap | `t_list  *ft_lstmap(t_list *lst, void *(*f)(void *),void (*del)(void *));` | _iterate list `lst` and apply function `f` on the `content` of each node; create a new
+list resulting of the successive applications of function `f`; `del` function is used to delete the `content` of a node if needed_
 </details>
 
 ___
